@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4 
         with:
-          python-version: 'pypy3.8'
+          python-version: 'pypy3.7'
       - name: install requirements and run tests
         run: |
           ls
